@@ -141,7 +141,7 @@ export default function Sing({ sing }: SingProps) {
               <button
                 type="submit"
                 disabled={isUploading}
-                className="w-full bg-linear-to-r from-orange-500 to-amber-500 text-white py-3 rounded-xl font-bold hover:shadow-lg transition-all"
+                className="w-full bg-linear-to-r cursor-pointer from-orange-500 to-amber-500 text-white py-3 rounded-xl font-bold hover:shadow-lg transition-all"
               >
                 {isUploading ? (
                   <div className=" flex items-center justify-center  gap-2 ">
